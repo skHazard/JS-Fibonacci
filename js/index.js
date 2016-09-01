@@ -29,7 +29,7 @@
 		    var userNum = document.getElementById("user").value;
 		    if (isNaN(userNum)) {
 		    	document.getElementById("resultLast").innerHTML = 'Enter a number, please!';
-		    	document.getElementById("resultAll").innerHTML = 'Enter a number, please!';
+		    	
 		    }else{
 		    	document.getElementById("resultLast").innerHTML = fibonacci(userNum);
 		    	document.getElementById("resultAll").innerHTML = fibonacciAll(userNum);
